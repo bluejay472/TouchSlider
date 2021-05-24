@@ -54,7 +54,7 @@ And how the diagram above looks like connected to a breadboard:
 ![alt text](https://github.com/bluejay472/TouchSlider/blob/main/Breadboard_layout.png?raw=true)
 
 And how you can connect the wire to the pins:
-![alt text](https://github.com/bluejay472/TouchSlider/blob/main/Slider_connection.png?raw=true)
+![alt text](https://github.com/bluejay472/TouchSlider/blob/main/Slider_connection.jpg?raw=true)
 
 
 The sending and receiving pins are set in the code itself, so as long as you adjust the code, you can connect the sending and receiving wires to any of these pins:
