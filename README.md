@@ -1,7 +1,7 @@
 # TouchSlider
-A touch-sensitive slider designed for use with PDAFT
+An alpha-stage touch-sensitive slider designed for use with PDAFT
 
-WARNING: This slider is still in its alpha phase. There ARE going to be issues, it WILL mis-read some input.
+WARNING: This slider is still in its alpha phase. This is a slightly difficult build. It WILL mis-read some input. Most of its accuracy depends on your calibration.
 
 ANOTHER WARNING: I am very new to Arduino, so I probably won't be much help in fixing issues (Google is your best friend)
 
@@ -16,12 +16,12 @@ Required materials for the slider:
 1. Arduino that supports the Keyboard() function - there are only a handful that do, make sure you have the right one!
 2. A breadboard (with enough space for selected number of keys)
 3. 10M - 100K resistors, NOTE: these do not have to have the same resistance values, as you will be manually calibrating the threshold for each key (also make sure you have one for each key!)
-4. Wires, lots of wires. You will be needing Male -> Male and Female -> Male (you will need two Male -> Male and one Female -> Male per key) <- Long Male->Male wires recommended!!
+4. Wires, lots of wires. You will be needing Male -> Male and Female -> Male (you will need two Male -> Male and one Female -> Male per key) Long Male->Male wires recommended!!
 5. The Keys themselves. These can be out of any conductive material, in my model, I used copper foil tape.
 6. General soldering materials (I used a soldering iron and some solder wire)
 7. (Optional) a sort of protective cover. The keys can sense resistance through some materials. In my model, I am using simple paper as a cover for my keys, but will eventually add an 1/8" plexiglass cover over the paper.
 
-Note: If you are directly touching the key, static electricity can damage the recieving pin. Some people put low-value resistors in between the key and the receiving pin just in case.
+Note: If you are directly touching the key (no protective cover), static electricity can damage the recieving pin. Some people put low-value resistors in between the key and the receiving pin just in case.
 
 Required Software:
 1. The Arduino software: https://www.arduino.cc/en/software
@@ -31,6 +31,7 @@ Required Software:
 NOTE: if you are as new as I was to Arduino, look up how to get an Arduino set up (based on your model), and how to add a .ZIP library
 
 ----Building Instructions-----
+
 You will NOT want to build this like I did (I learned that the hard way), however, the concept is still the same.
 
 How I built it:
@@ -53,7 +54,7 @@ This is a (very) basic diagram of how the touch system works:
 And how the diagram above looks like connected to a breadboard:
 ![alt text](https://github.com/bluejay472/TouchSlider/blob/main/Breadboard_layout.png?raw=true)
 
-And how you can connect the wire to the pins:
+And how you can connect the wire to the keys:
 ![alt text](https://github.com/bluejay472/TouchSlider/blob/main/Slider_connection.jpg?raw=true)
 
 
