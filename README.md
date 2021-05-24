@@ -39,7 +39,7 @@ How I built it:
 
 A better alternative:
 
-(again 1/2" plywood for stability) 12" x 19" board for the baseplate, 2x(19" x 5") and 2x(12" x 5") walls, 8" x 19" faceplate, and an additional 2.5" x 3.5" insert for the start button. This will give you some room to maintenance the controller if the need arises.
+(again 1/2" plywood for stability) 12" x 19" board for the baseplate, 2x(19" x 5") and 2x(11" x 5") walls, 8" x 19" faceplate, and an additional insert for the start button. This will give you some room to maintenance the controller if the need arises.
 
 NOTE: This is just a possible (and untested) construction of the slider system! There is no set way to construct this yet, as it is still in an alpha stage.
 
